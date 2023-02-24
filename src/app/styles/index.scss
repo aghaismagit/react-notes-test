@@ -1,0 +1,46 @@
+@import "reset";
+@import "variables/global";
+@import "themes/light";
+@import "themes/dark";
+
+#root {
+    min-height: 100vh;
+    width: 100%;
+}
+
+* {
+    color: var(--primary-color)
+}
+
+body {
+    font: var(--font-m);
+}
+
+.app_wrapper {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.template {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    grid-template-rows: 1fr;
+}
+
+.main {
+    display: flex;
+
+    height: 100vh;
+}
+
+.drag_item_wrapper {
+    position: relative;
+}
+
+.drag_item_controls {
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+}
+
+

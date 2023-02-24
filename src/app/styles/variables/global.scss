@@ -1,0 +1,30 @@
+:root {
+    --font-family-main: 'Roboto Condensed', sans-serif;
+    --font-size-m: 16px;
+    --font-line-m: 24px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-size-l: 24px;
+    --font-line-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+    --font-size-xl: 32px;
+    --font-line-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+    // Размеры
+    --navbar-height: 50px;
+    --sidebar-width: 300px;
+    --sidebar-width-collapsed: 130px;
+
+    // Цвета
+    --black: #000;
+    --white: #fff;
+
+    // Цвета фона
+    --main-bg: hsla(0, 100%, 100%, 0.16);
+
+    // Тени
+    --material-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    --main-box-shadow:  0 24px 38px 3px hsla(0,0%,0%,0.14),
+                        0 9px 46px 8px hsla(0,0%,0%,0.12),
+                        0 11px 15px -7px hsla(0,0%,0%,0.2);
+}

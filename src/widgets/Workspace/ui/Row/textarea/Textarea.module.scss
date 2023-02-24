@@ -1,0 +1,22 @@
+.wrapper {
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  right: -70px;
+}
+
+.textarea_wrapper {
+  height: 100px;
+  width: 500px;
+  resize: none;
+
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+
+  background: var(--bg-color);
+
+  padding: 10px;
+}
