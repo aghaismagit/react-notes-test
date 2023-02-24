@@ -1,14 +1,15 @@
-import { render } from 'react-dom';
-import { StrictMode } from 'react';
+import React from 'react';
+import * as ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'app/providers/ThemeProvider';
 import App from './app/App';
 import 'react-toastify/dist/ReactToastify.css';
 
-render(
-    <StrictMode>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+    <React.StrictMode>
         <ThemeProvider>
             <App />
         </ThemeProvider>
-    </StrictMode>,
-    document.getElementById('root'),
+    </React.StrictMode>
 );

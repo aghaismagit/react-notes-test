@@ -1,7 +1,7 @@
 import React from 'react';
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
-import { classNames } from 'shared/classNames/classNames';
+import { classNames } from 'shared/utils/classNames/classNames';
 
 import MoonIcon from 'shared/assets/icons/moon.svg';
 import SunIcon from 'shared/assets/icons/sun.svg';

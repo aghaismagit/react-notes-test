@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/index.scss';
 
 import { useTheme } from 'app/providers/ThemeProvider';
-import { classNames } from 'shared/classNames/classNames';
+import { classNames } from 'shared/utils/classNames/classNames';
 import MainPage from 'pages/MainPage/ui/MainPage';
 import { ToastContainer, toast } from 'react-toastify';
 

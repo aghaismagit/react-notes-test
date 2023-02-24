@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
-import { classNames } from 'shared/classNames/classNames';
+import { classNames } from 'shared/utils/classNames/classNames';
 import { DragItem } from 'widgets/DragItem/ui/DragItem';
 
 import TextIcon from 'shared/assets/icons/TextIcon.svg';

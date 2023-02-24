@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { DragType } from 'widgets/Sidebar/ui/Sidebar/Sidebar';
-import { classNames } from 'shared/classNames/classNames';
+import { classNames } from 'shared/utils/classNames/classNames';
 import styles from './DragItem.module.scss';
 
 interface DragItemProps {
